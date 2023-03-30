@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
 
 :root {
-  --white: #fff;
+  --white: #8b7f7f;
   --black: #1c2b2d;
   --blue: #31326f;
   --light-blue: #005490;
   --color-primary: #9d0191;
-  --color-sec: #db6400;
+  --color-sec: #6a6663;
   --grey: #eee;
   --dark-grey: #222831;
 }
@@ -36,19 +36,19 @@ img {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 500px;
   margin: 6rem auto;
   padding: 0 20px;
 }
 
 /* Start here */
 section {
-  height: 100vh;
+  height: 200vh;
 }
 
 .box {
   /* width: 40rem; */
-  background-color: #ffffd9;
+  background-color: #666665;
   padding: 2rem;
   color: var(--white);
   box-shadow: 0px 10px 20px 20px #e0e0e0;
@@ -57,7 +57,7 @@ section {
 h1 {
   font-size: 3rem;
   text-align: center;
-  color: #333;
+  color: #e6e2e2;
 }
 
 form {
@@ -66,14 +66,14 @@ form {
 }
 
 label{
-  color: #333;
+  color: #ede7e7;
 }
 
 form > * {
   padding-bottom: 1rem;
 }
 form input{
-  border: 2px solid #ffc000;
+  border: 2px solid #1c1b1a;
 }
 form input,
 .btn {
